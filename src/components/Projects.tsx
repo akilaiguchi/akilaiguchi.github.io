@@ -17,7 +17,7 @@ const PROJECTS: Project[] = [
     description:
       'Automated asynchronous swell information system that scrapes maritime buoy data and delivers real-time updates via a Telegram bot, built on a containerized microservices architecture.',
     href: 'https://github.com/akilaiguchi/SwellCheck',
-    image: './public/images/swellcheck.png',
+    image: '/images/swellcheck.png',
   },
   {
     number: '02',
@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
     description:
       'Real-time hand gesture recognition system that captures hand movements from live video, extracts hand landmark data, and classifies complex gestures to enable interactive gesture-based control.',
     href: 'https://github.com/akilaiguchi/hand_gesture_recognition',
-    image: './public/images/gesture_classification.png',
+    image: '/images/gesture_classification.png',
   },
   {
     number: '03',
@@ -35,7 +35,7 @@ const PROJECTS: Project[] = [
     description:
       'ML system that analyzes large-scale hotel booking data to predict guest stay duration, identify behavioral patterns across property types, and generate insights to support revenue and retention strategies.',
     href: 'https://github.com/akilaiguchi/MGSC310_capstone',
-    image: './public/images/hotel_retention.png',
+    image: '/images/hotel_retention.png',
   },
   {
     number: '04',
@@ -44,7 +44,7 @@ const PROJECTS: Project[] = [
     description:
       'CLI student-faculty database system that stores academic records in a self-balancing binary search tree, enabling efficient lookup, full CRUD operations, and persistent storage across sessions.',
     href: 'https://github.com/akilaiguchi/student-faculty-database',
-    image: './public/images/c++.png',
+    image: '/images/c++.png',
   },
   {
     number: '05',
@@ -52,7 +52,7 @@ const PROJECTS: Project[] = [
     title: 'Accessibility Reporting Website',
     description: 'Campus infrastructure reporting platform that allows users to submit location-based reports on an interactive map and collaboratively prioritize repairs through community voting and discussion.',
     href: 'https://github.com/akilaiguchi/chapman-accessibility-site',
-    image: './public/images/accessibility_site.png',
+    image: '/images/accessibility_site.png',
   },
   {
     number: '06',
@@ -60,7 +60,7 @@ const PROJECTS: Project[] = [
     title: 'Egyptian Rat Screw',
     description:'Interactive CLI simulation of the card game Egyptian Rat Screw that models players, decks, and game rules to autonomously run and manage full rounds of gameplay.',
     href: 'https://github.com/akilaiguchi/Egyptian-Rat-Screw',
-    image: './public/images/java.png',
+    image: '/images/java.png',
   },
 ]
 

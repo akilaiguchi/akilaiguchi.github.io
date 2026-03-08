@@ -79,7 +79,7 @@ export default function About() {
           {/* Image */}
           <figure className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[#bfdbfe] dark:bg-[#1A1A1A] m-0">
             <img
-              src="./public/images/professional_headshot.jpg"
+              src="/images/professional_headshot.jpg"
               alt="Akila Iguchi"
               loading="lazy"
               className="w-full h-full object-cover object-top"
