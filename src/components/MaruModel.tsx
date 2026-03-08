@@ -1,7 +1,7 @@
 import { useRef, Suspense, useMemo, useEffect } from 'react'
 import { Canvas, useFrame, useLoader } from '@react-three/fiber'
 import { Environment, Lightformer } from '@react-three/drei'
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
+import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js'
 import * as THREE from 'three'
 
 const chromeMaterial = new THREE.MeshStandardMaterial({
@@ -16,7 +16,7 @@ function Model({ scrollY }: { scrollY: React.MutableRefObject<number> }) {
 
   const chrome = useMemo(() => {
     const clone = obj.clone()
-    clone.traverse((child) => {
+    clone.traverse((child: THREE.Object3D) => {
       if ((child as THREE.Mesh).isMesh) {
         (child as THREE.Mesh).material = chromeMaterial
       }
